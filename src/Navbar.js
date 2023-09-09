@@ -7,7 +7,7 @@ function Navbar({ setActiveView, editTask }) {
     const [taskId, newTitle, newDate, newDay] = editedDetails.split(",").map((item) => item.trim());
     editTask(taskId, newTitle, newDate, newDay);
     setEditedDetails("");
-  }
+  } 
 
   return (
     <div className="navbar">
